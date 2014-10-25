@@ -1,0 +1,97 @@
+body{
+   background-color: ;
+}
+.registro{
+   width: 100%;
+   height: 60px;
+   background-color: black;
+   color: white;
+}
+.datos{
+   width: 40%;
+   float: right;
+   display: block;
+   margin-top: 1%;
+   font-size: 100%;
+   font-family: verdana;
+}
+.logo{
+   width: 100%;
+   height: 200px;
+   text-align: center;
+   font-size: 100px;
+}
+.carrusel{
+   width: 75%;
+   display: inline-block;
+}
+.slide{
+   margin-left: 3%;
+   width: 93%;
+   height: 500px;
+   display:inline-block;
+   position: relative;
+}
+.slide img{
+   width: 100%;
+   height: 500px;
+   position: absolute;
+}
+.slide .img2, .slide .img3 {
+   display: none;
+}
+.lateral {float: right; display: inline-block; width: 24%;
+   margin-bottom: 5%;   
+}
+
+.promos{
+   width: 90%;
+   height: 300px;
+   background-color: blue;
+   margin-bottom: 5%;
+}
+.mercha{
+   width: 90%;
+   height: 300px;
+   background-color: blue;
+   margin-bottom: 5%;
+}
+.social{
+   width: 90%;
+   height: 300px;
+   background-color: blue;
+   margin-bottom: 5%;
+}
+.cajas{
+   margin-top: 3%;
+   width: 70%;
+   height: 300px;
+   display: inline-block;
+   margin-left: 2%;
+}
+.box1{
+   width: 30%;
+   height: 80%;
+   margin-top: 5%;
+   background-color: green;
+   display: inline-block;
+   border-width:5px;border-style: solid;border-color:black;
+}
+.box2{
+   width: 30%;
+   height: 80%;
+   margin-top: 5%;
+   background-color: green;
+   margin-left: 3.5%;
+   display: inline-block;
+   border-width:5px;border-style: solid;border-color:black;
+}
+.box3{
+   width: 30%;
+   height: 80%;
+   margin-top: 5%;
+   background-color: green;
+   display: inline-block;
+   float: right;
+   border-width:5px;border-style: solid;border-color:black;
+}

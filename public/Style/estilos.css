@@ -1,0 +1,156 @@
+body{
+   background-image: url('../imagenes/fotograma.jpg'); 
+   background-attachment: fixed;
+   background-size: 100%;
+}
+header {
+   width: 100%;
+}
+.registro {
+   width: 100%;
+   height: 60px;
+   background-color: #31A1D1;
+   color: white;
+}
+.datos{
+   width: 40%;
+   float: right;
+   display: block;
+   margin-top: 1%;
+   font-size: 100%;
+   font-family: verdana;
+}
+.logo{
+   width: 30%;
+   margin: 0 auto;
+   text-align: center;
+   margin-bottom: 2%;
+}
+.carrusel{
+   width: 75%;
+   display: inline-block;
+}
+.slide{
+   margin-left: 3%;
+   width: 93%;
+   height: 500px;
+   display:inline-block;
+   position: relative;
+   background-color: grey;
+}
+.slide img{
+   width: 100%;
+   height: 500px;
+   position: absolute;
+}
+.slide .img2, .slide .img3 {
+   display: none;
+}
+.lateral {float: right; display: inline-block; width: 24%;
+   margin-bottom: 2%;   
+}
+
+.promos{
+   width: 90%;
+   height: 275px;
+   background-color: #31A1D1;
+   margin-bottom: 5%;
+   border-width:2px;border-style: solid;border-color:black;
+}
+.mercha{
+   width: 90%;
+   height: 275px;
+   background-color: #31A1D1;
+   margin-bottom: 5%;
+   border-width:2px;border-style: solid;border-color:black;
+}
+.social{
+   width: 90%;
+   height: 250px;
+   background-color: #31A1D1;
+   border-width:2px;border-style: solid;border-color:black;
+}
+.cajas{
+   margin-top: 3%;
+   width: 70%;
+   height: 300px;
+   display: inline-block;
+   margin-left: 2%;
+   margin-bottom: 5%;
+}
+.box1{
+   width: 30%;
+   height: 80%;
+   margin-top: 5%;
+   background-color: #31A1D1;
+   display: inline-block;
+   border-width:2px;border-style: solid;border-color:black;
+}
+.box2{
+   width: 30%;
+   height: 80%;
+   margin-top: 5%;
+   background-color: #31A1D1;
+   margin-left: 4.1%;
+   display: inline-block;
+   border-width:2px;border-style: solid;border-color:black;
+}
+.box3{
+   width: 30%;
+   height: 80%;
+   margin-top: 5%;
+   background-color: #31A1D1;
+   display: inline-block;
+   float: right;
+   border-width:2px;border-style: solid;border-color:black;
+}
+.transparencia{
+   width: 80%;
+   height: 400px;
+   background-color: black;
+   opacity: 0.8;
+   display: inline-block;
+}
+.lista{
+   width: 80%;
+   height: 400px;
+   margin: 0 auto;
+   font-family: verdana;
+   font-size: 40px;
+   text-align: center;
+}
+.lista ul{
+   width: 100%;
+   margin: 0 auto;
+   font-family: verdana;
+   font-size: 25px;
+   text-align: center;
+   display: inline-block;
+}
+.peliculas li{
+   width: 40%;
+   margin: 0 auto;
+   font-family: verdana;
+   font-size: 30px;
+   text-align: center;
+   padding: 2%;
+   display: inline-block;
+}
+.peliculas li a:hover{
+   font-size: 140%;
+   transition-duration: 1s;
+}
+a:link {
+   text-decoration:none;
+   color:#000000;
+}
+a:visited {
+   color:#000000;
+   text-decoration:none;
+}
+a:active {
+   color:#000000;
+   text-decoration:none;
+}
+
+

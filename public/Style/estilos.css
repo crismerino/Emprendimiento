@@ -82,7 +82,6 @@ header {
    width: 30%;
    height: 80%;
    margin-top: 5%;
-   background-color: #31A1D1;
    display: inline-block;
    border-width:2px;border-style: solid;border-color:black;
 }
@@ -128,17 +127,21 @@ header {
    display: inline-block;
 }
 .peliculas li{
-   width: 40%;
    margin: 0 auto;
    font-family: verdana;
    font-size: 30px;
    text-align: center;
    padding: 2%;
    display: inline-block;
+   margin: 1%;
 }
 .peliculas li a:hover{
    font-size: 140%;
    transition-duration: 1s;
+}
+.peli1{
+   background-color: orange;
+   border-radius: 15px;
 }
 a:link {
    text-decoration:none;

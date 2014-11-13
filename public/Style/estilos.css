@@ -100,11 +100,12 @@ header {
 }
 .lista{
    width: 80%;
-   height: 400px;
+   height: 300px;
    margin: 0 auto;
    font-family: verdana;
    font-size: 40px;
    text-align: center;
+   margin-bottom: 3%;
 }
 .lista ul{
    width: 100%;
@@ -113,6 +114,7 @@ header {
    font-size: 25px;
    text-align: center;
    display: inline-block;
+   margin-top: 3%;
 }
 .peliculas li{
    margin: 0 auto;
@@ -143,6 +145,23 @@ a:visited {
 a:active {
    color:#000000;
    text-decoration:none;
+}
+footer{
+   width: 100%;
+   height: 300px;
+   background-color: #31A1D1;
+}
+footer ul{
+   width: 50%;
+   margin: 0 auto;
+
+}
+footer li{
+   width: 100%;
+   font-family: verdana;
+   font-size: 90%;
+   margin: 3%;  
+   margin-top: 4%;
 }
 
 

@@ -54,21 +54,26 @@ header {
    width: 90%;
    height: 275px;
    background-color: #31A1D1;
-   margin-bottom: 5%;
+   margin-bottom: 10%;
    border-width:2px;border-style: solid;border-color:black;
 }
 .mercha{
    width: 90%;
-   height: 275px;
-   background-color: #31A1D1;
-   margin-bottom: 5%;
+   margin-bottom: 10%;
    border-width:2px;border-style: solid;border-color:black;
+
 }
 .social{
    width: 90%;
    height: 250px;
-   background-color: #31A1D1;
-   border-width:2px;border-style: solid;border-color:black;
+   
+}
+.iconos{
+   display: inline-block;
+   width: 75px;
+   height: 75px;
+   margin-bottom: 5%;
+   margin-left: 35%;
 }
 .cajas{
    margin-top: 3%;

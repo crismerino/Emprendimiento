@@ -131,6 +131,7 @@ header {
 .peliculas li a:hover{
    font-size: 130%;
    transition-duration: 1s;
+   
 
 }
 .peli1{
@@ -161,6 +162,7 @@ footer{
 footer li{
    display: inline-block;
    font-family: verdana;
+   font-weight: bold;
    font-size: 20px;
    padding: 30px;
    margin-top: 90px;

@@ -54,19 +54,17 @@ header {
    width: 90%;
    height: 275px;
    background-color: #31A1D1;
-   margin-bottom: 10%;
+   margin-bottom: 15%;
    border-width:2px;border-style: solid;border-color:black;
 }
 .mercha{
    width: 90%;
-   margin-bottom: 10%;
+   margin-bottom: 15%;
    border-width:2px;border-style: solid;border-color:black;
-
 }
 .social{
    width: 90%;
    height: 250px;
-   
 }
 .iconos{
    display: inline-block;
@@ -131,7 +129,7 @@ header {
    margin: 1%;
 }
 .peliculas li a:hover{
-   font-size: 140%;
+   font-size: 130%;
    transition-duration: 1s;
 
 }
@@ -152,21 +150,21 @@ a:active {
    text-decoration:none;
 }
 footer{
-   width: 100%;
+   background-image: url('../imagenes/footer.jpg');
    height: 300px;
-   background-color: #31A1D1;
 }
-footer ul{
-   width: 50%;
-   margin: 0 auto;
-
+.footer1{
+   margin-top: 5%;
+   width: 60%;
+  
 }
 footer li{
-   width: 100%;
+   display: inline-block;
    font-family: verdana;
-   font-size: 90%;
-   margin: 3%;  
-   margin-top: 4%;
+   font-size: 20px;
+   padding: 30px;
+   margin-top: 90px;
+   margin-left: 15px;
 }
 
 
